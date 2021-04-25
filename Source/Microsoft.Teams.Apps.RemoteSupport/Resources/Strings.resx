@@ -146,7 +146,7 @@
     <comment>Text to show on the radio button when selected normal.</comment>
   </data>
   <data name="RequestSubmittedContent" xml:space="preserve">
-    <value>For reference, here's what I shared with the on-call team.</value>
+    <value>For reference, here's what I shared with the expert team.</value>
     <comment>Text to show on request submitted card.</comment>
   </data>
   <data name="RequestSubmittedText" xml:space="preserve">
@@ -190,7 +190,7 @@
     <comment>Text to show in Edit task module,new request card.</comment>
   </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Facing a problem? I can ask the on-call team to look into it.</value>
+    <value>Thanks for reaching out to RDC. Ask away and we're here to help you!</value>
     <comment>Text to show bot description in welcome card for EndUser.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
@@ -218,7 +218,7 @@
     <comment>Text to show Close action in Change status section.</comment>
   </data>
   <data name="FirstObservedText" xml:space="preserve">
-    <value>First observed on</value>
+    <value>Assistance Requested for the date</value>
     <comment>Text to shown title for First observed in ticket card.</comment>
   </data>
   <data name="ReopenActionChoiceTitle" xml:space="preserve">
@@ -250,7 +250,7 @@
     <comment>Text to show in change status dropdown choice in request details card.</comment>
   </data>
   <data name="EndUserNotificationText" xml:space="preserve">
-    <value>The support team has received your request #{0}.</value>
+    <value>The team has received your request #{0}.</value>
     <comment>Text to show EndUser notification when request is submitted.</comment>
   </data>
   <data name="SmeAssignedStatus" xml:space="preserve">
@@ -274,7 +274,7 @@
     <comment>Text to show on button</comment>
   </data>
   <data name="OnCallSMEDetailCardText" xml:space="preserve">
-    <value>Here's the current on-call team. Click **Manage** to change which specialists are on the team.</value>
+    <value>Here's the current SME team. Click **Manage** to change which specialists are on the team.</value>
     <comment>On call SME detail card text.</comment>
   </data>
   <data name="UpdateHistoryActionText" xml:space="preserve">
@@ -290,7 +290,7 @@
     <comment>Text to show on update history card title</comment>
   </data>
   <data name="NoOnCallExpertsConfiguredText" xml:space="preserve">
-    <value>No one is on call right now. Select **Manage** to add specialists to the on-call team.</value>
+    <value>No one is available to assist you right now. Select **Manage** to add specialists to the expert team.</value>
     <comment>Text to show when no on call support experts are configured</comment>
   </data>
   <data name="ManageExpertsTitle" xml:space="preserve">
@@ -298,15 +298,15 @@
     <comment>Text to show in manage experts page shown in task module </comment>
   </data>
   <data name="NoUpdateHistoryText" xml:space="preserve">
-    <value>There is no on-call history available.</value>
+    <value>There is no history available.</value>
     <comment>Text to show when no update history is available.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>Sorry! We ran into an issue. Please try again later.</value>
     <comment>Generic error message.</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
-    <value>The support team picked up your request #{0}. A specialist will contact you soon.</value>
+    <value>The team picked up your request #{0}. A specialist will contact you soon.</value>
     <comment>Text to show notification for user when ticket is assigned to expert team.</comment>
   </data>
   <data name="ClosedTicketUserNotification" xml:space="preserve">
@@ -322,7 +322,7 @@
     <comment>Text to show user when status of ticket is reopened by Expert team member.</comment>
   </data>
   <data name="RequestActionTicketUserNotification" xml:space="preserve">
-    <value>The support team changed the severity level on your request #{0}.</value>
+    <value>The team changed the severity level on your request #{0}.</value>
     <comment>Text to show user when severity of ticket is changed by Expert team member.</comment>
   </data>
   <data name="DateValidationText" xml:space="preserve">
@@ -350,7 +350,7 @@
     <comment>Text to show validation in ME when it is not a valid team to open request.</comment>
   </data>
   <data name="ExpertNameTitle" xml:space="preserve">
-    <value>Select a specialist</value>
+    <value>Select an SME</value>
     <comment>Text to show on manage experts page</comment>
   </data>
   <data name="AddButtonText" xml:space="preserve">
@@ -374,7 +374,7 @@
     <comment>Text to show on save button.</comment>
   </data>
   <data name="OnCallExpertMentionText" xml:space="preserve">
-    <value>The on-call experts list has been modified. {0} have been added.</value>
+    <value>The experts list has been modified. {0} have been added.</value>
     <comment>Text to show when on call expert list is modified.</comment>
   </data>
   <data name="MaxOnCallExpertsAllowedText" xml:space="preserve">
@@ -382,7 +382,7 @@
     <comment>Text to show for validation message when on call experts selected are more than 15.</comment>
   </data>
   <data name="ExperListBulletPoint" xml:space="preserve">
-    <value>* Hit **Current on-call team** button to set up on call experts from this team.</value>
+    <value>* Hit **Current experts team** button to set up on call experts from this team.</value>
     <comment>Text to show command in a welcome Team card.</comment>
   </data>
   <data name="SmeEditNotificationText" xml:space="preserve">
@@ -466,14 +466,14 @@
     <comment>Text to show when user is not authenticated.</comment>
   </data>
   <data name="OnCallListUpdateMessage" xml:space="preserve">
-    <value>The on-call experts list is modified.</value>
+    <value>The experts list is modified.</value>
   </data>
   <data name="RequestStatusText" xml:space="preserve">
     <value>Status</value>
     <comment>Text to show ticket current status.</comment>
   </data>
   <data name="TeamRequestBulletPoint" xml:space="preserve">
-    <value>* To check requests assignements, click the small version of my icon near your message formatting options.</value>
+    <value>* To check requests assignments, click the small version of my icon near your message formatting options.</value>
     <comment>Text to show as a bullet point in team welcome card.</comment>
   </data>
 </root>
